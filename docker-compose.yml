@@ -11,3 +11,14 @@ services:
     ports:
       - 8080:8080
     env_file: .env
+  nginx:
+    image: nginx:latest
+    restart: unless-stopped
+    ports:
+      - 443:443
+    volumes:
+      - ./nginx.conf:/etc/nginx/nginx.conf
+      - ./ssl/cert.crt:/etc/nginx/ssl/cert.crt:ro
+      - ./ssl/key.key:/etc/nginx/ssl/key.key:ro
+    depends_on:
+      - glance
