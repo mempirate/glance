@@ -1,0 +1,22 @@
+- name: Crypto
+  # Optionally, if you only have a single page you can hide the desktop navigation for a cleaner look
+  # hide-desktop-navigation: true
+  columns:
+    # - size: small
+    #   widgets:
+    #     - type: calendar
+    #       first-day-of-week: monday
+
+    - size: full
+      widgets:
+        - title: Posts
+          type: rss
+          limit: 30
+          collapse-after: 20
+          style: list
+          cache: 12h
+          feeds:
+            - url: https://ethresear.ch/posts.rss
+              title: Eth Research
+            - url: https://forum.celestia.org/posts.rss
+              title: Celestia Forum

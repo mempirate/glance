@@ -1,0 +1,118 @@
+- name: Home
+  # Optionally, if you only have a single page you can hide the desktop navigation for a cleaner look
+  # hide-desktop-navigation: true
+  columns:
+    # - size: small
+    #   widgets:
+    #     - type: calendar
+    #       first-day-of-week: monday
+
+    - size: full
+      widgets:
+        - type: group
+          widgets:
+            - type: hacker-news
+            - type: lobsters
+
+
+
+        - type: group
+          widgets:
+            - title: Blogs
+              type: rss
+              limit: 20
+              collapse-after: 10
+              style: list
+              cache: 12h
+              feeds:
+                - url: https://decentralizedthoughts.github.io/feed 
+                  title: Decentralized Thoughts
+                - url: https://www.cryptologie.net/feed
+                  title: Cryptologie
+                - url: https://educatedguesswork.org/feed/feed.xml
+                  title: Educated Guesswork
+                - url: https://baincapitalcrypto.com/insights/feed/atom/
+                  title: Bain Capital
+                - url: https://writings.flashbots.net/rss.xml
+                  title: Flashbots
+                - url: https://vitalik.eth.limo/feed.xml
+                  title: Vitalik
+                - url: https://blog.cloudflare.com/tag/research/rss
+                  title: Cloudflare Research
+                - url: https://blog.cryptographyengineering.com/feed/
+                  title: Cryptography Engineering
+                - url: https://news.mit.edu/rss/topic/cryptography
+                  title: MIT Cryptography
+                - url: https://www.feistyduck.com/newsletter/feed
+                  title: Feisty Duck
+                - url: https://brooker.co.za/blog/rss.xml
+                  title: Brooker
+                - url: https://leastauthority.com/blog/feed/
+                  title: Least Authority
+                - url: https://zkmesh.substack.com/feed
+                  title: ZK Mesh
+                
+              # Other:
+              # - https://www.galois.com/blog
+              # - https://a16zcrypto.com/posts/
+              # - https://informal.systems/blog
+              # - https://www.paradigm.xyz/writing
+              # - https://www.initc3.org/blogs.html
+
+            - title: Cryptology ePrint
+              type: rss
+              limit: 50
+              collapse-after: 10
+              style: list
+              cache: 12h
+              feeds:
+              - url: https://eprint.iacr.org/rss/rss.xml
+                title: Cryptology ePrint Archive
+
+            - title: Arxiv
+              type: rss
+              limit: 50
+              collapse-after: 10
+              style: list
+              cache: 12h
+              feeds:
+              - url: https://rss.arxiv.org/atom/cs.DC
+                title: Arxiv Distributed Computing
+              - url: https://rss.arxiv.org/atom/cs.CR
+                title: Arxiv Cryptography
+            
+
+        - type: videos
+          channels:
+            - UCR-DXc1voovS8nhAvccRZhg # Jeff Geerling
+            - UCsBjURrPoezykLs9EqgamOA # Fireship
+            - UCBJycsmduvYEL83R_U4JriQ # Marques Brownlee
+            - UCHnyfMqiRRG1u-2MsSQLbXA # Veritasium
+
+    - size: small
+      widgets:
+        - type: markets
+          markets:
+            - symbol: SPY
+              name: S&P 500
+            - symbol: BTC-USD
+              name: Bitcoin
+            - symbol: ETH-USD
+              name: Ethereum
+            - symbol: SOL-USD
+              name: Solana
+            - symbol: NVDA
+              name: NVIDIA
+            - symbol: AAPL
+              name: Apple
+            - symbol: MSFT
+              name: Microsoft
+
+        - type: releases
+          cache: 1d
+          # Without authentication the Github API allows for up to 60 requests per hour. You can create a
+          # read-only token from your Github account settings and use it here to increase the limit.
+          # token: ...
+          repositories:
+            - glanceapp/glance
+            - databendlabs/openraft
