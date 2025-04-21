@@ -51,7 +51,9 @@
                   title: Least Authority
                 - url: https://zkmesh.substack.com/feed
                   title: ZK Mesh
-                
+                - url: https://www.iroh.computer/rss.xml
+                  title: Iroh
+
               # Other:
               # - https://www.galois.com/blog
               # - https://a16zcrypto.com/posts/
