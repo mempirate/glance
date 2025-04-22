@@ -86,7 +86,22 @@
                 title: Arxiv Cryptography
             
 
+
+    - size: small
+      widgets:
+        - type: releases
+          cache: 1d
+          # Without authentication the Github API allows for up to 60 requests per hour. You can create a
+          # read-only token from your Github account settings and use it here to increase the limit.
+          # token: ...
+          repositories:
+            - glanceapp/glance
+            - databendlabs/openraft
+
         - type: videos
+          style: vertical-list
+          collapse-after: 10
+          limit: 30
           channels:
             - UCR-DXc1voovS8nhAvccRZhg # Jeff Geerling
             - UCsBjURrPoezykLs9EqgamOA # Fireship
@@ -97,12 +112,3 @@
             - UCYWsYz5cKw4wZ9Mpe4kuM_g # Zero Knowledge
             - UCTHq3W46BiAYjKUYZq2qm-Q # a16z Crypto
             - UCMKIroHVXvMQRIBhENE6RhQ # DistSys Reading Group
-
-        - type: releases
-          cache: 1d
-          # Without authentication the Github API allows for up to 60 requests per hour. You can create a
-          # read-only token from your Github account settings and use it here to increase the limit.
-          # token: ...
-          repositories:
-            - glanceapp/glance
-            - databendlabs/openraft
