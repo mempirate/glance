@@ -55,6 +55,8 @@
                   title: Iroh
                 - url: https://blog.libp2p.io/index.xml
                   title: Libp2p
+                - url: https://pacific-lane.com/feed.xml
+                  title: Pacific Lane
 
               # Other:
               # - https://www.galois.com/blog
