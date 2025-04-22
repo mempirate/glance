@@ -53,6 +53,8 @@
                   title: ZK Mesh
                 - url: https://www.iroh.computer/rss.xml
                   title: Iroh
+                - url: https://blog.libp2p.io/index.xml
+                  title: Libp2p
 
               # Other:
               # - https://www.galois.com/blog
