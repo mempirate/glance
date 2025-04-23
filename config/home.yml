@@ -79,7 +79,7 @@
               - url: https://eprint.iacr.org/rss/rss.xml
                 title: Cryptology ePrint Archive
 
-            - title: Arxiv
+            - title: Arxiv Distsys
               type: rss
               limit: 50
               collapse-after: 10
@@ -88,6 +88,14 @@
               feeds:
               - url: https://rss.arxiv.org/atom/cs.DC
                 title: Arxiv Distributed Computing
+            
+            - title: Arxiv Cryptography
+              type: rss
+              limit: 50
+              collapse-after: 10
+              style: list
+              cache: 12h
+              feeds:
               - url: https://rss.arxiv.org/atom/cs.CR
                 title: Arxiv Cryptography
             
