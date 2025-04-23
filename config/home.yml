@@ -59,6 +59,8 @@
                   title: Pacific Lane
                 - url: https://www.germnetwork.com/blog?format=rss
                   title: Germ Network
+                - url: https://blog.taceo.io/atom.xml
+                  title: TACEO
 
               # Other:
               # - https://www.galois.com/blog
