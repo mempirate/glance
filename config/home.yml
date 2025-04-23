@@ -20,7 +20,7 @@
           widgets:
             - title: Blogs
               type: rss
-              limit: 20
+              limit: 30
               collapse-after: 10
               style: list
               cache: 12h
@@ -57,6 +57,8 @@
                   title: Libp2p
                 - url: https://pacific-lane.com/feed.xml
                   title: Pacific Lane
+                - url: https://www.germnetwork.com/blog?format=rss
+                  title: Germ Network
 
               # Other:
               # - https://www.galois.com/blog
