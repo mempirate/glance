@@ -63,6 +63,8 @@
                   title: TACEO
                 - url: https://tweedegolf.nl/feed.xml
                   title: Tweedegolf
+                - url: https://fly.io/blog/feed.xml
+                  title: Fly.io
 
               # Other:
               # - https://www.galois.com/blog
@@ -113,7 +115,6 @@
           repositories:
             - glanceapp/glance
             - databendlabs/openraft
-            - rust-lang/rust
 
         - type: videos
           style: vertical-list
