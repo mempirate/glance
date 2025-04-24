@@ -61,6 +61,8 @@
                   title: Germ Network
                 - url: https://blog.taceo.io/atom.xml
                   title: TACEO
+                - url: https://tweedegolf.nl/feed.xml
+                  title: Tweedegolf
 
               # Other:
               # - https://www.galois.com/blog
