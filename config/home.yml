@@ -117,6 +117,7 @@
           repositories:
             - glanceapp/glance
             - databendlabs/openraft
+            - rust-lang/rust
 
         - type: videos
           style: vertical-list
