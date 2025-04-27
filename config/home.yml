@@ -65,6 +65,8 @@
                   title: Tweedegolf
                 - url: https://fly.io/blog/feed.xml
                   title: Fly.io
+                - url: https://a16zcrypto.substack.com/feed
+                  title: a16z Newsletter
 
               # Other:
               # - https://www.galois.com/blog
