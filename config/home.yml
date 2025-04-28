@@ -67,6 +67,8 @@
                   title: Fly.io
                 - url: https://a16zcrypto.substack.com/feed
                   title: a16z Newsletter
+                - url: https://www.zellic.io/blog/rss.xml
+                  title: Zellic Research
 
               # Other:
               # - https://www.galois.com/blog
