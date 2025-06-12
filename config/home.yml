@@ -71,6 +71,10 @@
                   title: Zellic Research
                 - url: https://mirror.xyz/privacy-scaling-explorations.eth/feed/atom
                   title: PSE Blog
+                - url: https://blog.waku.org/rss/
+                  title: Waku Blog
+                - url: https://blog.oplabs.co/rss/
+                  title: OP Labs Blog
 
               # Other:
               # - https://www.galois.com/blog
