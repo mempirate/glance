@@ -75,6 +75,8 @@
                   title: Waku Blog
                 - url: https://blog.oplabs.co/rss/
                   title: OP Labs Blog
+                - url: https://blog.ethereum.org/en/feed.xml
+                  title: Ethereum Foundation
 
               # Other:
               # - https://www.galois.com/blog
