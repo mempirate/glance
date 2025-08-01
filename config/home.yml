@@ -69,7 +69,7 @@
                   title: a16z Newsletter
                 - url: https://www.zellic.io/blog/rss.xml
                   title: Zellic Research
-                - url: https://mirror.xyz/privacy-scaling-explorations.eth/feed/atom
+                - url: https://pse.dev/api/rss
                   title: PSE Blog
                 - url: https://blog.waku.org/rss/
                   title: Waku Blog
