@@ -77,6 +77,8 @@
                   title: OP Labs Blog
                 - url: https://blog.ethereum.org/en/feed.xml
                   title: Ethereum Foundation
+                - url: https://this-week-in-rust.org/rss.xml
+                  title: This Week in Rust
 
               # Other:
               # - https://www.galois.com/blog
