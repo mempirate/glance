@@ -77,6 +77,8 @@
                   title: Ethereum Foundation
                 - url: https://this-week-in-rust.org/rss.xml
                   title: This Week in Rust
+                - url: https://ethereal.news/rss.xml
+                  title: Ethereal
 
               # Other:
               # - https://www.galois.com/blog
