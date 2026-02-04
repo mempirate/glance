@@ -81,6 +81,8 @@
                   title: Ethereal
                 - url: https://www.inkandswitch.com/index.xml
                   title: Ink & Switch
+                - url: https://blog.zksecurity.xyz/feed.xml
+                  title: ZK Security
 
               # Other:
               # - https://www.galois.com/blog
