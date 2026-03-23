@@ -83,10 +83,11 @@
                   title: Ink & Switch
                 - url: https://blog.zksecurity.xyz/feed.xml
                   title: ZK Security
+                - url: https://muratbuffalo.blogspot.com/feeds/posts/default
+                  title: Murat Buffalo
 
               # Other:
               # - https://www.galois.com/blog
-              # - https://a16zcrypto.com/posts/
               # - https://www.paradigm.xyz/writing
               # - https://www.initc3.org/blogs.html
 
