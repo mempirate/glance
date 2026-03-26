@@ -87,6 +87,8 @@
                   title: Murat Buffalo
                 - url: https://registerspill.thorstenball.com/feed
                   title: Register Spill
+                - url: https://matklad.github.io/feed.xml
+                  title: Matklad
 
               # Other:
               # - https://www.galois.com/blog
