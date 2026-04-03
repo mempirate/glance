@@ -95,6 +95,20 @@
               # - https://www.paradigm.xyz/writing
               # - https://www.initc3.org/blogs.html
 
+            - title: Security Research
+              type: rss
+              limit: 20
+              collapse-after: 5
+              style: list
+              cache: 12h
+              feeds:
+              - url: https://blog.google/threat-analysis-group/rss/
+                title: Google Threat Analysis Group
+              - url: https://security.googleblog.com/feeds/posts/default
+                title: Google Security Blog
+              - url: https://googleprojectzero.blogspot.com/feeds/posts/default
+                title: Google Project Zero
+
             - title: Cryptology ePrint
               type: rss
               limit: 50
